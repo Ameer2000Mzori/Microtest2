@@ -7,11 +7,8 @@ body{
   padding: 15px;
   margin: 30px 8px;
 }
-#img {
+img {
   max-width: 100%;
-  padding: 15px;
-  align-items: center;
-  text-align: center;
   object-fit: cover;
 }
 p {
@@ -22,6 +19,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 0.5rem;
   margin: 1rem;
   overflow: hidden;
